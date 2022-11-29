@@ -1,0 +1,71 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    
+}
+
+.form-inner-container{
+    padding: 8% 9%;
+    background-color: whitesmoke;
+    margin: 0% 5%;
+}
+
+
+.img1{
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+.label-wrap{
+    margin-bottom: 5px;
+}
+
+.label-wrap.invalid label{
+
+    color: red;
+
+}
+
+input{
+    padding: 6px 15px;
+    width: 350px;
+    
+ 
+}
+
+.email-wrap{
+    margin-top: 20px;
+
+}
+
+.passw-wrap{
+    margin-top: 20px;
+}
+
+.btn-wrap{
+    margin-top: 8%;
+    text-align: center;
+}
+
+
+@media screen and (max-width:900px) {
+
+
+    .form-container{
+
+        padding: 0% 10%;
+        height: 60vh;
+}
+   
+
+input{
+    padding: 6px 15px;
+    width: 300px;
+    
+}
+    
+}
+
